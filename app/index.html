@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>Cek NISN - iBacor</title>
+		<link rel="stylesheet" href="css/framework7.material.min.css">
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/cek-nisn.css">
+		<link rel="icon" href="http://ibacor.com/bcr_asset/theme/images/favicon.ico">
+	</head>
+	<body>
+		<div class="statusbar-overlay"></div>
+		<div class="panel-overlay"></div>
+		<div class="panel panel-left panel-cover">
+			<div class="view navbar-fixed">
+				<div class="pages">
+					<div data-page="panel-left" class="page">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<div class="center">Tentang</div>
+							</div>
+						</div>
+						<div class="page-content">
+							<div class="content-block">
+								<p>
+									Aplikasi ini berfungsi untuk cek NISN siswa yang ada di database website kemdikbud.
+								</p>
+								<p>
+									Pengecekan NISN ini membutuhkan koneksi internet untuk mengakses data dari server.
+								</p>
+								<p>
+									Demikian, semoga bermanfaat.
+								</p>
+							</div>
+							<div class="content-block-title">Salam iBacor.com</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="views">
+			<div class="view view-main">
+				<div class="pages navbar-fixed">
+					<div data-page="index" class="page">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<div class="center">Cek NISN</div>
+								<div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+							</div>
+						</div>
+						<div class="page-content">
+							<center><img src="img/siswa.png"/></center>
+							<div class="content-block"><a href="nisn.html" class="button button-fill button-raised">Berdasarkan NISN</a></div>
+							<div class="content-block"><a href="nama.html" class="button button-fill button-raised">Berdasarkan Nama</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup">
+			<div class="view navbar-fixed">
+				<div class="pages">
+					<div class="page">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<div class="center">Data Siswa</div>
+								<div class="right"><a href="#" class="link close-popup">Done</a></div>
+							</div>
+						</div>
+						<div class="page-content">
+							<div class="content-block">
+								<div class="list-block inputs-list" id="siswa">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/framework7.min.js"></script>
+		<script type="text/javascript" src="js/cek-nisn.js"></script>
+	</body>
+</html>
