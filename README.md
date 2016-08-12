@@ -1,8 +1,14 @@
 # Android-Hybrid-Cek-NISN
-  Aplikasi ini berfungsi untuk cek NISN siswa yang ada di database website kemdikbud.
+Aplikasi ini berfungsi untuk cek NISN siswa yang ada di database website kemdikbud.
   
-  Pengecekan NISN ini membutuhkan koneksi internet untuk mengakses data dari server.
+Ada 2 metode yang dapat dilakukan untuk cek NISN siswa dengan aplikasi ini, yaitu:
+  1. Dengan mengetik nomor NISN siswa.
+  2. Dengan mengetik Nama, Tempat lahir & Tanggal lahir
   
-  Demikian, semoga bermanfaat.
+Pengecekan NISN ini membutuhkan koneksi internet untuk mengakses data dari server.
+
+<a href="http://ibacor.com/cek-nisn/"><h3>DEMO</h3></a>
   
-  Salam iBacor.com
+Demikian, semoga bermanfaat.
+  
+Salam iBacor.com
