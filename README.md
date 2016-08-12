@@ -8,6 +8,8 @@ Ada 2 metode yang dapat dilakukan untuk cek NISN siswa dengan aplikasi ini, yait
 Pengecekan NISN ini membutuhkan koneksi internet untuk mengakses data dari server.
 
 <a href="http://ibacor.com/cek-nisn/"><h3>DEMO</h3></a>
+
+Aplikasi ini berjenis hybrid dibuat menggunakan Framework7. Jika ingin dijadikan APK bisa menggunakan Phonegap atau yang lainnya.
   
 Demikian, semoga bermanfaat.
   
